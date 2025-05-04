@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+ 
+  <button id="clickBtn">Click Me</button>
+  <button id="hoverBtn">Hover Over Me</button>
+  <input type="text" id="keyInput" placeholder="Type something..." />
+  <button id="dblClickBtn">Double Click Me</button>
+
+
+  <button id="changeTextBtn">Change Text</button>
+  <p id="textParagraph">Original text here.</p>
+
+  <div id="slideshow">
+    <img id="slideImg" src="https://images.pexels.com/photos/161853/eiffel-tower-paris-france-tower-161853.jpeg?auto=compress&cs=tinysrgb&w=600" />
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <div class="accordion">
+    <button id="accordionBtn">Toggle Info</button>
+    <div id="accordionContent">🎉 Hidden content is now visible!</div>
+  </div>
+
+  
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
